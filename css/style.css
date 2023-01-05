@@ -64,8 +64,8 @@ h1 {
 
 
 .home {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,8 +90,7 @@ h1 {
 }
 
 .home p {
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 10px;
     color: white;
 }
 
@@ -136,10 +135,12 @@ h1 {
 }
 
 .mini-biography h3 {
+    color: white;
     padding: 60px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.952);
 }
 
 .tourDates {
@@ -172,31 +173,32 @@ h1 {
     justify-content: center;
 }
 
-.dates div {
+.dates .card{
     background-color: rgba(255, 255, 255, 0.765);
     border: solid;
     border-radius: 30px;
     font-size: 21px;
-    padding: 5px;
     text-align: center;
     width: 100%;
     position: static;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.dates div:hover {
+.dates .card:hover {
     transform: scale(1.15);
     transition: all 500ms;
     background-color: whitesmoke;
     position: static;
 }
 
-.dates div .card {
-    padding: 20px;
-}
 
 .dates .card p {
     padding: 10px;
 }
+
+
 
 .gallery {
     background-color: rgba(0, 0, 0, 0.952);
@@ -286,6 +288,7 @@ h1 {
 .hisMusic .plataforms img {
     width: 80px;
     height: 80px;
+    padding: 10px;
 }
 
 .hisMusic .plataforms {
@@ -306,4 +309,79 @@ footer div {
 footer div p {
     text-align: center;
     color: black;
+}
+
+@media (max-width: 767px){
+
+    .home p{
+        padding: 60px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    .home h1{
+        padding: 25px;
+        font-size: 3rem;
+    }
+
+    .aboutUs{
+        background-image: none;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .aboutUs .text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .dates {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(9, 1fr);
+        grid-row-gap: 10px;
+    }
+
+    .grid-gallery {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-row-gap: 10px;
+    }
+
+
+    .hisMusic .last-release {
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+
+    .hisMusic .last-release .itunes {
+        padding:0%;
+    }
+
+    .hisMusic .popularSongs {
+        padding: 50px;
+    }
+
+    .hisMusic .popularSongs .spotify {
+        padding: 0%;
+    }
+
+    .hisMusic .plataforms {
+        text-align: center;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.952);
+    }
+
+    .hisMusic .plataforms img {
+        width: 50px;
+        height: 50px;
+
+        
+    }
 }

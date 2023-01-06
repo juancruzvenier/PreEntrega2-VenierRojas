@@ -224,6 +224,7 @@ h1 {
     grid-template-rows: repeat(5, 20%);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    overflow:hidden;
 }
 
 .grid-gallery .photo {

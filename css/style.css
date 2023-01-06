@@ -8,7 +8,6 @@
 body {
     background-color: rgb(245, 245, 245);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
 }
 
 .navbar-brand{
@@ -19,6 +18,7 @@ body {
 .container-fluid{
     padding-left: 50px;
     padding-right: 50px;
+    width: 100%;
 }
 
 
@@ -313,6 +313,7 @@ footer div {
 footer div p {
     text-align: center;
     color: black;
+    margin-bottom: 0;
 }
 
 @media (max-width: 767px){
@@ -369,7 +370,7 @@ footer div p {
 
 
     .hisMusic .last-release {
-        padding: 50px;
+        padding: 20px;
         padding-bottom: 0px;
     }
 
@@ -378,7 +379,7 @@ footer div p {
     }
 
     .hisMusic .popularSongs {
-        padding: 50px;
+        padding: 20px;
     }
 
     .hisMusic .popularSongs .spotify {

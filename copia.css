@@ -10,31 +10,31 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: blueviolet;
     font-weight: bolder;
 }
 
-.container-fluid{
+.container-fluid {
     padding-left: 50px;
     padding-right: 50px;
     width: 100%;
 }
 
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: blueviolet;
 }
 
-.nav-link{
+.nav-link {
     font-weight: bolder;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: blueviolet;
 }
 
-.collapse{
+.collapse {
     justify-content: flex-end;
 }
 
@@ -47,7 +47,7 @@ h1 {
     font-size: 3rem;
 }
 
-.redireccion {
+.redirect {
     font-size: 0.8;
     font-weight: bold;
     padding: 10px 30px;
@@ -58,7 +58,7 @@ h1 {
     background-color: blueviolet;
 }
 
-.redireccion:hover{
+.redirect:hover {
     background-color: rgb(87, 28, 142);
 }
 
@@ -177,7 +177,7 @@ h1 {
     justify-content: center;
 }
 
-.dates .card{
+.dates .card {
     background-color: rgba(255, 255, 255, 0.765);
     border: solid;
     border-radius: 30px;
@@ -224,7 +224,7 @@ h1 {
     grid-template-rows: repeat(5, 20%);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .grid-gallery .photo {
@@ -317,31 +317,31 @@ footer div p {
     margin-bottom: 0;
 }
 
-.footer-abajo img{
+.footer-abajo img {
     width: 15px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-    .container-fluid{
+    .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
     }
 
 
-    .home p{
+    .home p {
         padding: 60px;
         padding-bottom: 10px;
         padding-top: 10px;
     }
 
 
-    .home h1{
+    .home h1 {
         padding: 25px;
         font-size: 3rem;
     }
 
-    .aboutUs{
+    .aboutUs {
         background-image: none;
         text-align: center;
         justify-content: center;
@@ -349,7 +349,7 @@ footer div p {
 
     }
 
-    .aboutUs .text{
+    .aboutUs .text {
         text-align: center;
         width: 100%;
         justify-content: center;
@@ -380,7 +380,7 @@ footer div p {
     }
 
     .hisMusic .last-release .itunes {
-        padding:0%;
+        padding: 0%;
     }
 
     .hisMusic .popularSongs {

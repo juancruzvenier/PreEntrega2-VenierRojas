@@ -1,0 +1,27 @@
+.navbar-brand {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+
+.navbar-brand:hover {
+    color: blueviolet;
+}
+
+.nav-link {
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.collapse {
+    justify-content: flex-end;
+}

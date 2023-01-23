@@ -47,7 +47,7 @@ h1 {
     font-size: 3rem;
 }
 
-.redirect {
+.redirect-btn {
     font-size: 0.8;
     font-weight: bold;
     padding: 10px 30px;
@@ -58,7 +58,7 @@ h1 {
     background-color: blueviolet;
 }
 
-.redirect:hover {
+.redirect-btn:hover {
     background-color: rgb(87, 28, 142);
 }
 

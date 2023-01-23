@@ -1,57 +1,54 @@
-.hisMusic h1 {
-    padding: 50px;
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-.hisMusic .title {
-    background-color: rgba(0, 0, 0, 0.952);
-}
-
 .hisMusic {
     display: flex;
     flex-direction: column;
-}
 
-.hisMusic .last-release {
-    padding: 80px;
-    padding-bottom: 0px;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem;
-    background-color: whitesmoke;
-}
+    h1 {
+        padding: 50px;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
 
+    & .title {
+        background-color: rgba(0, 0, 0, 0.952);
+    }
 
+    & .last-release {
+        padding: 80px;
+        padding-bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: whitesmoke;
 
-.hisMusic .last-release .itunes {
-    padding: 50px;
-    padding-bottom: 0px;
-}
+        & .itunes {
+            padding: 50px;
+            padding-bottom: 0px;
+        }
+    }
 
-.hisMusic .popularSongs {
-    padding: 80px;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem;
-    background-color: whitesmoke;
-}
+    & .popularSongs {
+        padding: 80px;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: whitesmoke;
 
+        & .spotify {
+            padding: 50px;
+            padding-bottom: 0px;
+        }
+    }
 
-.hisMusic .popularSongs .spotify {
-    padding: 50px;
-    padding-bottom: 0px;
-}
+    & .plataforms {
+        text-align: center;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.952);
 
-.hisMusic .plataforms img {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-}
-
-.hisMusic .plataforms {
-    text-align: center;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.952);
+        img {
+            width: 80px;
+            height: 80px;
+            padding: 10px;
+        }
+    }
 }

@@ -5,17 +5,18 @@
         padding-right: 15px;
     }
 
+    .home{
+        p {
+            padding: 60px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
 
-    .home p {
-        padding: 60px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+        h1 {
+            padding: 25px;
+            font-size: 3rem;
+        }
 
-
-    .home h1 {
-        padding: 25px;
-        font-size: 3rem;
     }
 
     .aboutUs {
@@ -24,13 +25,13 @@
         justify-content: center;
         width: 100%;
 
-    }
+        & .text {
+            text-align: center;
+            width: 100%;
+            justify-content: center;
+            padding-left: 0px;
+        }
 
-    .aboutUs .text {
-        text-align: center;
-        width: 100%;
-        justify-content: center;
-        padding-left: 0px;
     }
 
     .dates {
@@ -50,32 +51,34 @@
         grid-row-gap: 10px;
     }
 
+    .hisMusic{
+        & .last-release {
+            padding: 20px;
+            padding-bottom: 0px;
 
-    .hisMusic .last-release {
-        padding: 20px;
-        padding-bottom: 0px;
+            & .itunes {
+                padding: 0%;
+            }
+        }
+
+        & .popularSongs {
+            padding: 20px;
+
+            & .spotify {
+                padding: 0%;
+            }
+        }
+
+        & .plataforms {
+            text-align: center;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.952);
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
     }
 
-    .hisMusic .last-release .itunes {
-        padding: 0%;
-    }
-
-    .hisMusic .popularSongs {
-        padding: 20px;
-    }
-
-    .hisMusic .popularSongs .spotify {
-        padding: 0%;
-    }
-
-    .hisMusic .plataforms {
-        text-align: center;
-        padding: 5px;
-        background-color: rgba(0, 0, 0, 0.952);
-    }
-
-    .hisMusic .plataforms img {
-        width: 50px;
-        height: 50px;
-    }
 }

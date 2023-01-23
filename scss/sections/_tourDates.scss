@@ -7,18 +7,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    h1 {
+        padding: 50px;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
 }
 
-.tourDates h1 {
-    padding: 50px;
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-}
 
 .dates {
-
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,29 +25,28 @@
     grid-column-gap: 20px;
     grid-row-gap: 10px;
     justify-content: center;
-}
 
-.dates .card {
-    background-color: rgba(255, 255, 255, 0.765);
-    border: solid;
-    border-radius: 30px;
-    font-size: 21px;
-    text-align: center;
-    width: 100%;
-    position: static;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-}
+    & .card {
+        background-color: rgba(255, 255, 255, 0.765);
+        border: solid;
+        border-radius: 30px;
+        font-size: 21px;
+        text-align: center;
+        width: 100%;
+        position: static;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
 
-.dates .card:hover {
-    transform: scale(1.15);
-    transition: all 500ms;
-    background-color: whitesmoke;
-    position: static;
-}
+        &:hover {
+            transform: scale(1.15);
+            transition: all 500ms;
+            background-color: whitesmoke;
+            position: static;
+        }
 
-
-.dates .card p {
-    padding: 10px;
+        p {
+            padding: 10px;
+        }
+    }
 }

@@ -5,22 +5,23 @@
     background-size: cover;
     background-position: left;
     padding: 200px 12px;
+
+    & .text {
+        width: 40%;
+        max-width: 300px;
+        text-align: left;
+        padding-left: 30px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
 }
 
-.aboutUs .text {
-    width: 40%;
-    max-width: 300px;
-    text-align: left;
-    padding-left: 30px;
-}
-
-.aboutUs .text h2 {
-    font-size: 2.5rem;
-}
-
-.aboutUs .text p {
-    font-size: 1.5rem;
-}
 
 .mini-biography h3 {
     color: white;

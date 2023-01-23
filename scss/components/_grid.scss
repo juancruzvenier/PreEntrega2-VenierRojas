@@ -1,0 +1,11 @@
+.grid-gallery {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(5, 20%);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    overflow: hidden;
+}

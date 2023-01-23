@@ -1,3 +1,16 @@
+// Grid - Tour Dates
+.dates{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
+
+
+//Grid Gallery
 .grid-gallery {
     padding-left: 50px;
     padding-right: 50px;
@@ -9,3 +22,4 @@
     grid-row-gap: 10px;
     overflow: hidden;
 }
+

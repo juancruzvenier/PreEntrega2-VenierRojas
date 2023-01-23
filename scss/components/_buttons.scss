@@ -5,10 +5,10 @@
     border-radius: 16px;
     border: none;
     box-shadow: none;
-    color: rgb(250, 250, 250);
-    background-color: blueviolet;
+    color: $btn-text;
+    background-color: $btn-background;
 
     &:hover {
-        background-color: rgb(87, 28, 142);
+        background-color: $btn-background;
     }
 }

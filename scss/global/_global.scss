@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: $background;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -9,9 +9,15 @@ a {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: $h1-size;
+    color: $h1-color;
+}
+
+h2{
+    color: $h2-color;
+    
 }
 
 .highlight {
-    color: blueviolet;
+    color: $main-color;
 }

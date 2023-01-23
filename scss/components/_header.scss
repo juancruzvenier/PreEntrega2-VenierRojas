@@ -4,11 +4,11 @@
     width: 100%;
 
     & .navbar-brand {
-        color: blueviolet;
+        color: $main-color;
         font-weight: bolder;
     
         &:hover {
-            color: blueviolet;
+            color: $main-color;
         }
     }
 }
@@ -20,7 +20,7 @@
         font-weight: bolder;
     
         &:hover {
-            color: blueviolet;
+            color: $main-color;
         }
     }
 }

@@ -1,5 +1,6 @@
 //General Settings
 @import "../scss/utilities/colors";
+@import "../scss/utilities/sizes";
 @import "../scss/reset/reset";
 @import "../scss/global/global";
 
@@ -12,10 +13,10 @@
 //Pages
 @import "../scss/sections/home";
 @import "../scss/sections/aboutUs";
+
+@import "../scss/components/grid"; //grid tourDates & gallery
+
 @import "../scss/sections/tourDates";
-
-@import "../scss/components/grid"; //grid-gallery
-
 @import "../scss/sections/gallery";
 @import "../scss/sections/hisMusic";
 

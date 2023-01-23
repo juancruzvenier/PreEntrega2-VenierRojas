@@ -16,7 +16,12 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  color: black;
 }
 
 .highlight {
@@ -57,12 +62,12 @@ h1 {
   border-radius: 16px;
   border: none;
   box-shadow: none;
-  color: #fafafa;
+  color: white;
   background-color: blueviolet;
 }
 
 .redirect-btn:hover {
-  background-color: #571c8e;
+  background-color: blueviolet;
 }
 
 .home {
@@ -84,8 +89,6 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  font-size: 4rem;
-  color: white;
   text-align: center;
 }
 
@@ -100,7 +103,6 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
   padding: 60px 12px;
 }
 
@@ -141,6 +143,28 @@ h1 {
   background-color: rgba(0, 0, 0, 0.952);
 }
 
+.dates {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  justify-content: center;
+}
+
+.grid-gallery {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(5, 20%);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  overflow: hidden;
+}
+
 .tourDates {
   display: flex;
   flex-direction: column;
@@ -152,19 +176,7 @@ h1 {
 
 .tourDates h1 {
   padding: 50px;
-  font-size: 3rem;
-  color: white;
   text-align: center;
-}
-
-.dates {
-  padding: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 10px;
-  justify-content: center;
 }
 
 .dates .card {
@@ -181,7 +193,7 @@ h1 {
 }
 
 .dates .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
   transition: all 500ms;
   background-color: whitesmoke;
   position: static;
@@ -191,26 +203,12 @@ h1 {
   padding: 10px;
 }
 
-.grid-gallery {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(5, 20%);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  overflow: hidden;
-}
-
 .gallery {
   background-color: rgba(0, 0, 0, 0.952);
 }
 
 .gallery h1 {
   padding: 50px;
-  font-size: 3rem;
-  color: white;
   text-align: center;
 }
 
@@ -226,7 +224,7 @@ h1 {
 }
 
 .grid-gallery .photo img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 500ms;
   position: relative;
 }
@@ -238,8 +236,6 @@ h1 {
 
 .hisMusic h1 {
   padding: 50px;
-  font-size: 3rem;
-  color: white;
   text-align: center;
 }
 

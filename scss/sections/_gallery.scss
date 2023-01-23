@@ -5,9 +5,16 @@
         padding: 50px;
         text-align: center;
     }
+
+    h3{
+        color: white;
+        text-align: center;
+        padding: 30px;
+        padding-top:0px;
+    }
 }
 
-.grid-gallery{
+.grid-gallery {
     & .photo {
         padding: 5px;
         text-align: center;

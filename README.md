@@ -1,5 +1,14 @@
-# Fan Page del cantante John Mayer
-**Deploy:** [Sitio Web](https://juancruzvenier.github.io/infoMayer/index.html)
-Este es un proyecto sobre el cantante John Mayer que realicé como entrega final de un curso de Desarrollo Web, meramente con el objetivo de aprender y sin fines de lucro.
-Se usó HTML, CSS, SASS & BOOTSTRAP.
-Cuenta con 5 secciones (Home, About Us, Tour Dates, Gallery & His Music)
+# InfoMayer
+
+[InfoMayer](https://juancruzvenier.github.io/infoMayer/index.html) es un sitio web que realicé a modo de práctica utiizando **HTML**, **CSS** (con **SCSS**) y **Bootstrap**. El sitio está diseñado para aprender y aplicar conceptos de **diseño responsive** y **estilización moderna**.
+
+## Tecnologías Utilizadas
+
+- **HTML5** para la estructura de la página.
+- **CSS3** y **SCSS** para los estilos personalizados.
+- **Bootstrap** para la creación de una interfaz responsive y accesible.
+
+## Funcionalidades
+
+- Diseño adaptable a diferentes dispositivos gracias a Bootstrap.
+- Estilos personalizados mediante SCSS para una mejor organización y mantenimiento del código CSS.
